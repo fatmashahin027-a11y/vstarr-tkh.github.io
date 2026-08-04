@@ -80,8 +80,32 @@ footer{
     padding:1rem;
 }
 
+#skills{
+    margin:1rem auto;
+}
+
+#skills ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin:2rem;
+}
+
+#skills ul li{
+    list-style: none;
+    background-color: antiquewhite;
+    border:solid 1px black;
+    border-radius: 10px;
+    padding:2rem;
+}
+
+section p{
+    text-align: center;
+}
+
 @media(min-width:768px){
-    .row, nav ul{
+    .row, nav ul, #skills ul{
         flex-direction: row;
     }
 }
